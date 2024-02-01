@@ -434,6 +434,7 @@ public class ComponentAutoBindToolInspector : Editor
         {
             sw.WriteLine("using UnityEngine;");
             sw.WriteLine("using UnityEngine.UI;");
+            sw.WriteLine("using TMPro;");
             sw.WriteLine("");
 
             sw.WriteLine("//自动生成于：" + DateTime.Now);

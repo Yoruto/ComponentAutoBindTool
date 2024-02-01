@@ -37,6 +37,7 @@ public class DefaultAutoBindRuleHelper : IAutoBindRuleHelper
         {"Sbar","Scrollbar"},
         {"SRect","ScrollRect"},
         {"Drop","Dropdown"},
+        {"TMP","TextMeshProUGUI"},
     };
 
     public bool IsValidBind( Transform target, List<string> filedNames, List<string> componentTypeNames)
